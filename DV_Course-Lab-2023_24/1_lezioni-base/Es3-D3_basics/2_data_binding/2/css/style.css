@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+    width: 800px;
+    height: 150px;
+}
+
+g#container {
+    transform: translate(50px, 50px);
+}

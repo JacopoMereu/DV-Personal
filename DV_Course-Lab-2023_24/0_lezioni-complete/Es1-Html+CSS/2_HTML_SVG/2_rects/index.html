@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg>
+    <g>
+        <!-- A rect with no attributes is not visible -->
+        <rect/>
+
+        <!-- A rect with only x is not visible -->
+        <rect x="10"/>
+
+        <!-- A rect with x and y is not visible -->
+        <rect x="10" y="10"/>
+
+        <!-- A rect with x + y + width is not visible -->
+        <rect x="50" y="100" width="40"/>
+
+        <!-- A rect with width and height is visible -->
+        <rect width="40" height="20"/>
+
+        <!-- A rect with x, y, width and height is visible -->
+        <rect x="100" y="100" width="40" height="20"/>
+
+        <!-- A rect with x+y+width+height + fill  -->
+        <rect x="150" y="100" width="40" height="20" fill="red"/>
+
+        <!-- A rect with x+y+width+height + fill + stroke  -->
+        <rect x="200" y="100" width="40" height="20" fill="red" stroke="black"/>
+
+        <!-- A rect with x+y+width+height + fill + stroke + stroke-width  -->
+        <rect x="250" y="100" width="40" height="20" fill="red" stroke="black" stroke-width="4px"/>
+
+        <!-- A rect with x+y+width+height + fill=none + stroke + stroke-width -->
+        <rect x="300" y="100" width="40" height="20" fill="none" stroke="black" stroke-width="4px"/>
+
+        <!-- A rect with x+y+width+height + fill + stroke + stroke-width + opacity -->
+        <rect x="350" y="100" width="40" height="20" fill="red" stroke="black" stroke-width="4px" opacity="0.5"/>
+
+        <!-- A rect with x+y+width+height + fill + stroke + stroke-width + opacity + transform -->
+        <rect x="350" y="100" width="40" height="20" fill="red" stroke="black" stroke-width="4px" opacity="0.5" transform="translate(10, 10)"/>
+
+        <!-- A rect with x+y+width+height + fill + stroke + stroke-width + rx + ry-->
+        <rect x="450" y="100" width="40" height="20" fill="red" stroke="black" stroke-width="4px" rx="3" ry="3"/>
+
+        <!-- A rect with x+y+width+height + fill + stroke + stroke-width +  stroke-dasharray-->
+        <rect x="500" y="100" width="40" height="20" fill="red" stroke="black" stroke-width="4px" stroke-dasharray="3"/>
+    </g>
+</svg>
+</body>
+</html>

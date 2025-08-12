@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="../../../../0_lib/d3.v7.js"></script>
+    <script type="text/javascript" src="../../../../lib/JUtils.js"></script>
+
+    <script type=text/javascript src="js/main.js"></script>
+</head>
+<body>
+<svg>
+    <g id="container" transform="translate(10, 30)"></g>
+</svg>
+<!-- make a radio button for "from random" or "from input" -->
+<div>
+    <input type="radio" id="random" name="data_type" value="random" checked>
+    <label for="random">Random</label>
+    <input type="radio" id="range" name="data_type" value="range">
+    <label for="range">Input</label>
+    <!--    1st row: from random -->
+    <div id="row_random_data">
+        <label for="N">N points</label>
+        <input type="text" id="N" name="N" value="10">
+
+        <label for="min">Min:</label>
+        <input type="text" id="min" name="min" value="1">
+        <label for="max">Max:</label>
+        <input type="text" id="max" name="max" value="10">
+        <button onClick="from_random();">Randomize data</button>
+    </div>
+    <!--    2nd row: from input -->
+    <div id="row_input_data">
+        <label for="input_data">Data:</label>
+        <input type="text" id="input_data" name="Input data" value="1,2,3,4">
+        <button onClick="from_input();">Update data</button>
+    </div>
+    <div>
+        <input type="checkbox" id="show_text" name="show_text" value="show_text" checked onchange="toggle_text();">
+        <label for="show_text">Show text</label>
+        <br>
+        <label for="shift">Shift:</label>
+        <input type="text" id="shift" name="shift" value="0">
+        <button onClick="shift_data();">Shift</button>
+    </div>
+</div>
+</body>
+</html>

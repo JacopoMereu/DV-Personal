@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+    width: 800px;
+    height: 150px;
+}
+
+g#container {
+    transform: translate(70px, 30px);
+}
+
+#bars rect {
+    fill: steelblue;
+}
+
+#bars rect:hover {
+    fill: orange;
+}
+
+/*#labels text {*/
+/*    text-anchor: end;*/
+/*}*/

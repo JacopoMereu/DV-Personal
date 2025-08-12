@@ -1,0 +1,25 @@
+svg {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+}
+.base{
+    fill: red;
+    stroke:black;
+    stroke-width: 4px;
+}
+
+.opacity05 {
+    opacity:0.5;
+}
+.transform20 {
+    transform: translate(20px, 20px);
+}
+
+.fill-none {
+    fill: none!important;
+}
+
+.stroke-dasharray-10 {
+    stroke-dasharray: 10;
+}

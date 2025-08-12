@@ -1,0 +1,62 @@
+[
+  {
+    "letter": "fr(^E)",
+    "frequency": 0.644230769
+  },
+  {
+    "letter": "fr(^EA)",
+    "frequency": 0.605769231
+  },
+  {
+    "letter": "fr(^EC)",
+    "frequency": 0.009615385
+  },
+  {
+    "letter": "fr(^EAC)",
+    "frequency": 0.096153846
+  },
+  {
+    "letter": "fr(^ECA)",
+    "frequency": 0.009615385
+  },
+  {
+    "letter": "fr(^A)",
+    "frequency": 0.288461538
+  },
+  {
+    "letter": "fr(^AE)",
+    "frequency": 0.125
+  },
+  {
+    "letter": "P(^AC)",
+    "frequency": 0.009615385
+  },
+  {
+    "letter": "fr(^AEC)",
+    "frequency": 0.009615385
+  },
+  {
+    "letter": "fr(^ACE)",
+    "frequency": 0
+  },
+  {
+    "letter": "fr(^C)",
+    "frequency": 0.067307692
+  },
+  {
+    "letter": "fr(^CE)",
+    "frequency": 0.048076923
+  },
+  {
+    "letter": "fr(^CA)",
+    "frequency": 0.019230769
+  },
+  {
+    "letter": "fr(^CEA)",
+    "frequency": 0.048076923
+  },
+  {
+    "letter": "fr(^CAE)",
+    "frequency": 0
+  }
+]

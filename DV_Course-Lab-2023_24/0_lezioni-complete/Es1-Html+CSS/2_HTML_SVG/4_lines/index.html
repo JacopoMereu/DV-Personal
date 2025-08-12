@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg>
+    <g>
+        <!-- line: you need two points <x1, y1> and <x2, y2> + stroke -->
+        <line x1="100" y1="100" x2="200" y2="200" stroke="black"/>
+
+        <!-- if the coordinates are not specified, 0 is assumed -->
+        <line x1="100" y1="100" stroke="red"/>
+        <line x1="100" y1="100" y2="200" stroke="blue"/>
+
+        <!-- line with stroke-width -->
+        <line x1="300" y1="100" x2="200" y2="200" stroke="black" stroke-width="4px"/>
+
+        <!-- line with stroke-width + stroke-dasharray -->
+        <line x1="300" y1="100" x2="400" y2="200" stroke="black" stroke-width="4px" stroke-dasharray="10"/>
+
+        <!-- line with opacity -->
+        <line x1="500" y1="100" x2="400" y2="200" stroke="red" stroke-width="4px" opacity="0.3"/>
+    </g>
+</svg>
+</body>
+</html>

@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+}
+
+
+g.axis line {
+    stroke-dasharray: 1;
+}
+
+g.axis > path.domain {
+    display: none;
+}

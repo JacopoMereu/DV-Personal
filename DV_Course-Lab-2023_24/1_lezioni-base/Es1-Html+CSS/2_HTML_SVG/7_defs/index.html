@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/SVG/Element/defs -->
+    <!-- "defs" definisce una geometria complessa MA non la mostra. -->
+    <!-- "use" mostra effettivamente la geometria. Volendo possiamo modificare gli attributi (e.g. traslazione) -->
+
+
+    <!-- We are defining a stylized person. It's just the definition, it's not visible -->
+    <defs>
+        <g id="person">
+            <circle cx="30" cy="30" r="30" fill="black"></circle>
+            <line x1="30" y1="60" x2="30" y2="100" stroke="black" stroke-width="5"></line>
+            <line x1="30" y1="100" x2="0" y2="150" stroke="black" stroke-width="5"></line>
+            <line x1="30" y1="100" x2="60" y2="150" stroke="black" stroke-width="5"></line>
+            <line x1="30" y1="70" x2="0" y2="100" stroke="black" stroke-width="5"></line>
+            <line x1="30" y1="70" x2="60" y2="100" stroke="black" stroke-width="5"></line>
+        </g>
+    </defs>
+
+    <!-- We are using the "person" definition to create a person -->
+    <use href="#person" x="5" y="5"></use>
+    <!-- TODO Use "#person" other 3 times, but change the transform every time -->
+    <!-- TODO Here #2 -->
+    <!-- TODO Here #3 -->
+    <!-- TODO Here #4 -->
+</svg>
+</body>
+</html>

@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+}
+
+text {
+    font-size: 2em;
+    font-family: sans-serif;
+}

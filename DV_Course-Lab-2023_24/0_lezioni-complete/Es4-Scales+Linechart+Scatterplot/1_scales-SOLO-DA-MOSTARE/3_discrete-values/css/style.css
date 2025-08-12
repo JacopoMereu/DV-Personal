@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+    width: 1200px;
+    height: 550px;
+}

@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-align-center {
+    align-content: center;
+    align-items: center;
+}
+.flex-gap-5 {
+    gap: 5em;
+}
+.flex-space-around {
+    justify-content: space-around;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+pre {
+    border-radius: 45px;
+    border: 1px black solid;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+/**/
+/* CSS for Expanded State */
+main section.out :not(h2){
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+main section:not(.out)  {
+    height: auto;
+}

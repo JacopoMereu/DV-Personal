@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg>
+    <g>
+        <!--    <g transform="translate(100, 100)"> &lt;!&ndash; I can translate by (dx,dy) the transform of all the components in the group &ndash;&gt;-->
+
+        <!-- A circle with no attributes is not visible -->
+        <circle/>
+        <!-- The center-x value alone is not sufficient -->
+        <circle cx="120px"/>
+        <!-- The center-x and center-y values are not sufficient, we need the radius -->
+        <circle cx="140px" cy="100px"/>
+        <!-- The radius alone is sufficient, because the default center-x and center-y values are 0 -->
+        <circle r="20px"/>
+        <!-- Circle with radius + cx + cy -->
+        <circle cx="100px" cy="100px" r="20px"/>
+        <!-- Circle with radius + cx + cy + fill -->
+        <circle cx="150px" cy="100px" r="20px" fill="red"/>
+        <!-- Circle with radius + cx + cy + fill + stroke -->
+        <circle cx="200px" cy="100px" r="20px" fill="red" stroke="black"/>
+        <!-- Circle with radius + cx + cy + fill + stroke + stroke-width -->
+        <circle cx="250px" cy="100px" r="20px" fill="red" stroke="black" stroke-width="4px"/>
+        <!-- Circle with radius + cx + cy + fill + stroke + stroke-width + opacity -->
+        <circle cx="300px" cy="100px" r="20px" fill="red" stroke="black" stroke-width="4px" opacity="0.5"/>
+        <!-- Circle with radius + cx + cy + fill + stroke + stroke-width + opacity + transform -->
+        <circle cx="300px" cy="100px" r="20px" fill="red" stroke="black" stroke-width="4px" opacity="0.5" transform="translate(20, 20)"/>
+        <!-- Circle with radius + cx + cy + fill=none + stroke + stroke-width -->
+        <circle cx="370px" cy="100px" r="20px" fill="none" stroke="black" stroke-width="4px" />
+        <!-- Circle with radius + cx + cy + fill=none + stroke + stroke-width + stroke-dasharray -->
+        <circle cx="420px" cy="100px" r="20px" fill="none" stroke="black" stroke-width="4px" stroke-dasharray="10"/>
+    </g>
+</svg>
+</body>
+</html>

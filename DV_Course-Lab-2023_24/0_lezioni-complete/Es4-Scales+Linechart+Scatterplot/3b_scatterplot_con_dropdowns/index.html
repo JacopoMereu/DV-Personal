@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="../../../0_lib/d3.v7.js"></script>
+    <script type="text/javascript" src="../../../lib/JUtils.js"></script>
+
+
+    <script type=text/javascript src="js/main.js"></script>
+</head>
+<body>
+<!--make 2 dropdown -->
+<div id="dropdowns" onchange="onDropdownChange()">
+    <select id="xSelect">
+        <option value="age">Age</option>
+        <option value="bmi">BMI</option>
+        <option value="children">Children</option>
+        <option value="charges">Charges</option>
+        <option value="sex">Sex</option>
+        <option selected value="smoker">Smoker</option>
+        <option value="region">Region</option>
+    </select>
+    <select id="ySelect">
+        <option value="age">Age</option>
+        <option value="bmi">BMI</option>
+        <option value="children">Children</option>
+        <option selected value="charges">Charges</option>
+        <option value="sex">Sex</option>
+        <option value="smoker">Smoker</option>
+        <option value="region">Region</option>
+    </select>
+</div>
+</body>
+</html>

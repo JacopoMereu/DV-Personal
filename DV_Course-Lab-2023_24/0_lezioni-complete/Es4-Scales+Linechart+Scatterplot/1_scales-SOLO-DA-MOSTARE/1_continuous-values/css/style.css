@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+    width: 1270px;
+    height: 550px;
+}
+
+g.hide>*:not(:last-child) {
+    display: none;
+}
+
+text {
+    user-select: none;
+}
+
+.disabled * {
+    pointer-events: none;
+    color: grey;
+}

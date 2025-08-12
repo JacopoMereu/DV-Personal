@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first D3 app!</title>
+    <script type="text/javascript" src="d3/d3.v7.js"></script>
+</head>
+<body>
+    <h1>La mia prima app con D3!</h1>
+    <p>che bello!...</p>
+
+    <!-- Add a svg area, empty -->
+    <svg id="dataviz_area" height=200 width=450></svg>
+
+    <script type="text/javascript">
+    // Your beautiful D3 code will go here
+    d3.select("body").append("p").text("Paragrafo aggiunto con D3");
+
+
+    d3.csv("data/food.csv", function(data)
+    {
+        console.log(data);
+    });
+
+
+    var svg = d3.select("#dataviz_area")
+    svg.append("circle")
+        .attr("cx", 20).attr("cy", 20).attr("r", 40).style("fill", "blue");
+    svg.append("circle")
+        .attr("cx", 140).attr("cy", 70).attr("r", 40).style("fill", "red");
+    svg.append("circle").attr("cx", 300).attr("cy", 100).attr("r", 40).style("fill", "green");
+
+
+
+    </script>
+
+</body>
+</html>

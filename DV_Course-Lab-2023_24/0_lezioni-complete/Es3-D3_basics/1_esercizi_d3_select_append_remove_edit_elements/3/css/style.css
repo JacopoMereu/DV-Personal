@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+    width: 800px;
+    height: 150px;
+}
+
+g {
+    transform: translate(70px, 70px);
+}
+
+circle.selected {
+    fill: blue;
+}
+
+/*circle {*/
+/*    fill: black;*/
+/*}*/

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg>
+    <!-- We are defining a stylized person. It's just the definition, it's not visible -->
+    <defs>
+        <g id="person">
+            <circle cx="30" cy="30" r="30" fill="black"></circle>
+            <line x1="30" y1="60" x2="30" y2="100" stroke="black" stroke-width="5"></line>
+            <line x1="30" y1="100" x2="0" y2="150" stroke="black" stroke-width="5"></line>
+            <line x1="30" y1="100" x2="60" y2="150" stroke="black" stroke-width="5"></line>
+            <line x1="30" y1="70" x2="0" y2="100" stroke="black" stroke-width="5"></line>
+            <line x1="30" y1="70" x2="60" y2="100" stroke="black" stroke-width="5"></line>
+        </g>
+    </defs>
+
+    <!-- We are using the "person" definition to create 4 people -->
+    <use href="#person" x="0" y="0"></use>
+    <use href="#person" x="100" y="0"></use>
+    <use href="#person" x="200" y="0"></use>
+    <use href="#person" x="300" y="0"></use>
+</svg>
+</body>
+</html>

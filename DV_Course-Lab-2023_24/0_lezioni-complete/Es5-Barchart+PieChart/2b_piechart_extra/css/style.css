@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+}
+
+/* TODO new code*/
+svg path.hovered {
+    opacity: 1 !important;
+    stroke-width: 4px !important;
+}
+
+.hovered text {
+    font-size: 20px;
+    font-weight: bold;
+}
+.hovered rect {
+    stroke-width: 1px !important;
+    stroke: black !important;
+}

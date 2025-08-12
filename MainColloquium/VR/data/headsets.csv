@@ -1,0 +1,15 @@
+Id,Name,ReleaseYear,FullReleaseDate,Price,Img_url,Type
+GooglCardboard,Google Cardboard VR,2014,2014-06-25,20,./images/Google-Cardboard.jpg,adapter
+GoogleDaydream,Google Daydream,2016,2016-11-10,20,./images/daydream-view-fog.png,adapter
+SonyPSVR1,Sony PSVR 1,2016,2016-10-01,150,./images/sony-psvr1.jpg,tethered
+SonyPSVR2,Sony PSVR 2,2022,2023-02-22,600,./images/sony-psvr2.jpg,tethered
+MetaQuest2,Meta Quest 2,2020,2020-10-13,300,./images/meta-quest2.jpg,hybrid
+MetaQuest3,Meta Quest 3,2023,2023-10-10,600,./images/meta-quest3.jpg,hybrid
+MetaQuestPro,Meta Quest Pro,2022,2022-10-25,1200,./images/meta-quest-pro.jpg,hybrid
+VivePRO2,Vive PRO 2,2021,2021-06-04,900,./images/vive-pro-2-vero.jpg,tethered
+ViveFocus3,Vive Focus 3,2021,2021-06-27,1700,./images/vive-focus-3.jpg,standalone
+OculusRiftS,Oculus Rift S,2019,2019-05-21,300,./images/oculus-rift-s.jpg,tethered
+OculusGo,Oculus Go,2018,2018-05-01,200,./images/oculus-go.jpg,standalone
+ValveIndex,Valve Index,2019,2019-05-01,1800,./images/valve-index.jpg,tethered
+AcerAH101,Acer AH101,2017,2017-10-17,200,./images/acer-ah101.jpg,tethered
+RiftDK1,Oculus Rift DK1,2013,2013-03-28,100,./images/Oculus-Rift-DK1.jpg,tethered

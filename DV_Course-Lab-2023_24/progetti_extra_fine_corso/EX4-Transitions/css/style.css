@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+/*svg {*/
+/*    border:1px solid black;*/
+/*    width: 800px;*/
+/*    height: 150px;*/
+/*}*/
+
+/*g#container {*/
+/*    transform: translate(70px, 30px);*/
+/*}*/
+
+#container {
+    position: relative;
+    height: 40px;
+}
+#container div {
+    position: absolute;
+    margin: 2px;
+    background-color: orange;
+    color: white;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}

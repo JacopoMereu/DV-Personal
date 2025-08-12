@@ -1,0 +1,9 @@
+/* Make a selector img whose href ends with .png */
+img[src$=".svg"] {
+  position: relative;
+  top:-38px;
+}
+
+/*img[src$=".png"] {*/
+/*  opacity: 0.3;*/
+/*}*/

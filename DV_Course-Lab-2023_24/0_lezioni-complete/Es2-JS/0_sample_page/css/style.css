@@ -1,0 +1,21 @@
+/*Your CSS style goes here!! */
+svg {
+    border:1px solid black;
+    width: 600px;
+    height: 600px;
+}
+
+.small {
+    font: italic 13px sans-serif;
+}
+.opacity03 {
+    fill-opacity: 0.3;
+}
+.heavy {
+    font: bold 30px sans-serif;
+}
+
+.Rrrrr {
+    font: italic 40px serif;
+    fill: red;
+}

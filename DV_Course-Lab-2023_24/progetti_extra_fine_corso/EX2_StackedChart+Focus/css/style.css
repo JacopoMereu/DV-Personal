@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    border:1px solid black;
+}
+
+.x-axis path {
+    display: none;
+}
+.y-axis line {
+    stroke: lightgray;
+    stroke-dasharray: 10, 2;
+}
